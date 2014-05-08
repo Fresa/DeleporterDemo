@@ -1,0 +1,33 @@
+﻿@using deleporterDemo.Controllers
+@model IEnumerable<deleporterDemo.Models.NewsData>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Your daily news feed</title>
+    <style>
+        .news-post {
+            margin-bottom: 1em;
+            background: green;
+            border: 1px solid black;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="feed">
+        @foreach (var news in Model)
+        {
+            <div class="news-post">
+                <h1>@news.Header</h1>
+                <p>@news.Body</p>
+            </div>
+        }
+    </div>
+</body>
+</html>
