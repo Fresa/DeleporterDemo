@@ -1,7 +1,5 @@
 ﻿using deleporterDemo.Tests.Page;
 using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.PhantomJS;
 
 namespace deleporterDemo.Tests
 {
@@ -10,21 +8,19 @@ namespace deleporterDemo.Tests
         where TPage : IPage, new()
         where TMocker : new()
     {
-        private IWebDriver _driver;
         protected TPage Page;
 
         [TestFixtureSetUp]
         public void StartBrowser()
         {
-            _driver = new PhantomJSDriver();
             Page = new TPage();
-            Page.SetDriver(_driver);
+            Page.SetDriver(Driver.Current);
         }
 
         [TestFixtureTearDown]
         public void TearDown()
         {
-            _driver.Quit();
+            Driver.Current.Quit();
         }
 
         [SetUp]

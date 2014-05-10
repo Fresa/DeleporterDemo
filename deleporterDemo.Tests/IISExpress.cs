@@ -90,7 +90,7 @@ namespace deleporterDemo.Tests
 
             if ( Debugger.IsAttached)
             {
-                DTE2 dte = (DTE2)System.Runtime.InteropServices.Marshal.GetActiveObject("VisualStudio.DTE.12.0");
+                var dte = (DTE2)Marshal.GetActiveObject("VisualStudio.DTE.12.0");
                 var engine = (dte.Debugger as EnvDTE100.Debugger5).Transports.Item("Default").Engines.Item("Managed (v4.5, v4.0");
                 var iisExpressProcess = dte.Debugger.LocalProcesses.OfType<Process2>().ToArray().FirstOrDefault(p => p.Name.Contains("iisexpress.exe"));
                 if (iisExpressProcess != null)

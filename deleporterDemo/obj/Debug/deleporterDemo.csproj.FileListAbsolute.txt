@@ -71,8 +71,9 @@ C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporter
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\bin\System.Web.WebPages.Razor.xml
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.dll
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.pdb
-C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll.config
+C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll
+C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.pdb
 C:\Git\DeleporterDemo\deleporterDemo\bin\Deleporter.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Practices.ServiceLocation.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Web.Infrastructure.dll
@@ -105,4 +106,3 @@ C:\Git\DeleporterDemo\deleporterDemo\bin\Newtonsoft.Json.xml
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.csprojResolveAssemblyReference.cache
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.dll
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.pdb
-C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.pdb
