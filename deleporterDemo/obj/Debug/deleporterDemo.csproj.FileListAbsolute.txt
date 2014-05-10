@@ -71,41 +71,38 @@ C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporter
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\bin\System.Web.WebPages.Razor.xml
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.dll
 C:\Users\Fredrik\Documents\Visual Studio 2013\Projects\deleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.pdb
-C:\Git\DeleporterDemo\deleporterDemo\bin\Newtonsoft.Json.xml
-C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll.config
 C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll
-C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.pdb
+C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.dll.config
+C:\Git\DeleporterDemo\deleporterDemo\bin\Deleporter.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Practices.ServiceLocation.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Web.Infrastructure.dll
-C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\Newtonsoft.Json.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\StructureMap.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\StructureMap.Net4.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Net.Http.Formatting.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Helpers.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Http.dll
-C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Http.WebHost.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Mvc.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Razor.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.Deployment.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.Razor.dll
 C:\Git\DeleporterDemo\deleporterDemo\bin\WebActivator.dll
+C:\Git\DeleporterDemo\deleporterDemo\bin\Deleporter.pdb
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\Git\DeleporterDemo\deleporterDemo\bin\Microsoft.Practices.ServiceLocation.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\StructureMap.pdb
 C:\Git\DeleporterDemo\deleporterDemo\bin\StructureMap.Net4.pdb
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Net.Http.Formatting.xml
-C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Http.xml
-C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Http.WebHost.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Helpers.xml
+C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Http.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Mvc.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.Razor.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.Deployment.xml
 C:\Git\DeleporterDemo\deleporterDemo\bin\System.Web.WebPages.Razor.xml
+C:\Git\DeleporterDemo\deleporterDemo\bin\Newtonsoft.Json.xml
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.csprojResolveAssemblyReference.cache
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.dll
 C:\Git\DeleporterDemo\deleporterDemo\obj\Debug\deleporterDemo.pdb
-C:\Git\DeleporterDemo\deleporterDemo\bin\Deleporter.dll
-C:\Git\DeleporterDemo\deleporterDemo\bin\Deleporter.pdb
+C:\Git\DeleporterDemo\deleporterDemo\bin\deleporterDemo.pdb

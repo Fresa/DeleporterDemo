@@ -1,0 +1,18 @@
+﻿<#@ template language="C#" #>
+
+<site name="<#= SiteName #>" id="1" serverAutoStart="true">
+    <application path="/">
+        <virtualDirectory path="/" physicalPath="<#=SitePath#>" />
+    </application>
+    <bindings>
+        <binding protocol="http" bindingInformation="*:<#=Port#>:localhost" />
+    </bindings>
+    <logFile logFormat="W3C" directory="<#=SitePath#>\Logs" />
+    <traceFailedRequestsLogging directory="<#=SitePath#>\TraceLogFiles" enabled="true" maxLogFileSizeKB="1024" />
+</site>
+
+<#+
+public String SitePath { get; set; }
+public int Port { get; set; }
+public String SiteName { get; set; }
+#>
