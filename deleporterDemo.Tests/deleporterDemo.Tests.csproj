@@ -117,7 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CiterusDaily.cs" />
-    <Compile Include="Driver.cs" />
+    <Compile Include="DriverProvider.cs" />
     <Compile Include="Elements\NewsElement.cs" />
     <Compile Include="IISExpress.cs" />
     <Compile Include="NewsFeedMocker.cs" />

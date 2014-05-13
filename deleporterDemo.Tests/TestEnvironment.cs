@@ -28,19 +28,19 @@ namespace deleporterDemo.Tests
                 File.Delete(Directory.GetCurrentDirectory() + "//WebDev.WebHost20.dll");
             }
 
-            return new IISExpressInstance(sitepath, 9090, Directory.GetCurrentDirectory());
+            return new IISExpressInstance(sitepath, 3999, Directory.GetCurrentDirectory());
         }
 
         private static void InitializeDeleporter()
         {
-            WebRequest.CreateHttp("http://localhost:9090").GetResponse();
+            WebRequest.CreateHttp("http://localhost:3999").GetResponse();
         }
 
         [TearDown]
         public void TearDown()
         {
             _iis.Dispose();
-            Driver.Current.Dispose();
+            DriverProvider.Current.Dispose();
         }
     }
 }

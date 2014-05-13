@@ -14,13 +14,13 @@ namespace deleporterDemo.Tests
         public void StartBrowser()
         {
             Page = new TPage();
-            Page.SetDriver(Driver.Current);
+            Page.SetDriver(DriverProvider.Current);
         }
 
         [TestFixtureTearDown]
         public void TearDown()
         {
-            Driver.Current.Quit();
+            DriverProvider.Current.Quit();
         }
 
         [SetUp]
