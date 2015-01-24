@@ -33,7 +33,7 @@ namespace deleporterDemo.Tests
 
         private static void InitializeDeleporter()
         {
-            WebRequest.CreateHttp("http://localhost:3999").GetResponse();
+            WebRequest.CreateHttp("http://localhost:3999/news/feed").GetResponse();
         }
 
         [TearDown]

@@ -37,7 +37,7 @@
       <HintPath>..\packages\Coypu.2.3.0\lib\net40\Coypu.dll</HintPath>
     </Reference>
     <Reference Include="Deleporter">
-      <HintPath>..\packages\Deleporter.dll</HintPath>
+      <HintPath>..\packages\Deleporter.0.1.9.15416\lib\Net40\Deleporter.dll</HintPath>
     </Reference>
     <Reference Include="EnvDTE100, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -135,6 +135,10 @@
     <Compile Include="ViewResultExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\packages\PhantomJS.1.9.7\tools\phantomjs\phantomjs.exe">
+      <Link>phantomjs.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>

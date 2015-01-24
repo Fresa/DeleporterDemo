@@ -5,6 +5,10 @@ namespace deleporterDemo.Tests
 {
     public class CiterusDaily
     {
+        public CiterusDaily()
+        {
+            
+        }
         public IEnumerable<NewsData> WriteNews()
         {
             return new List<NewsData>

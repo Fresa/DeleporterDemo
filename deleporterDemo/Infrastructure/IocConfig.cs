@@ -11,8 +11,6 @@ namespace deleporterDemo.Infrastructure
         {
             IContainer container = new Container();
 
-            container.Configure(x => x.For<INewsProvider>().Use<NewsProvider>());
-
             DependencyResolver.SetResolver(new StructureMapDependencyResolver(container));
         }
     }

@@ -5,14 +5,18 @@ namespace deleporterDemo.Controllers
 {
     public class NewsController : Controller
     {
-        private readonly INewsProvider _newsProvider;
+        private readonly NewsProvider _newsProvider;
 
-        public NewsController(INewsProvider newsProvider)
+        public NewsController()
+        {
+            
+        }
+        public NewsController(NewsProvider newsProvider)
         {
             _newsProvider = newsProvider;
         }
 
-        public ActionResult Feed()
+        public virtual ActionResult Feed()
         {
             
             var theNews = _newsProvider.GetTheNews();

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace deleporterDemo.Models
 {
-    public class NewsProvider : INewsProvider
+    public class NewsProvider
     {
         public IEnumerable<NewsData> GetTheNews()
         {

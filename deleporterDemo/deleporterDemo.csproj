@@ -129,7 +129,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\IocConfig.cs" />
-    <Compile Include="Models\INewsProvider.cs" />
     <Compile Include="Models\NewsData.cs" />
     <Compile Include="Models\NewsProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
